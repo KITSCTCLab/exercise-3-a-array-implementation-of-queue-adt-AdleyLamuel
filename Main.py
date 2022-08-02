@@ -68,8 +68,17 @@ class Solution:
         Arguments:
             character: A character that will be enqueued to queue.
         """
-        # Write your code here
-
+        int val;
+        if (self.rear == n - 1):
+            return 0
+        else 
+            if (self.front == - 1):
+                self.front = 0
+                cout<<"Insert the element in queue : "<<endl
+                val = input()
+                rear++
+                queue[rear] = val
+            
     def pop_character(self):
         """
         Do pop operation if the stack is not empty.
@@ -84,8 +93,10 @@ class Solution:
         Returns:
           The data that is dequeued if the queue is not empty.
         """
-        # Write your code here
-
+        if (front == - 1 || front > rear): 
+            return 0
+        else: 
+            front++
 
 # read the string text
 text = input()
